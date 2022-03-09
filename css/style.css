@@ -1,0 +1,9 @@
+#text__color {
+  color: #dc3545;
+  transition: 0.3s;
+}
+#text__color:hover {
+  background-color: #dc3545;
+  color: whitesmoke;
+  border-radius: 30px;
+}
