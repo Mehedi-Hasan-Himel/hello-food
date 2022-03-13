@@ -1,25 +1,38 @@
 #text__color {
-  color: #dc3545;
+  color: #dc3545 !important;
   transition: 0.3s;
 }
 #text__color:hover {
   background-color: #dc3545;
-  color: whitesmoke;
+  color: whitesmoke !important;
   border-radius: 30px;
 }
 .carousel__text {
   color: black;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.856);
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
-#work{
+#work {
   padding-top: 60px;
 }
-#contact{
-  background:url(/img/map.jpg) ;
+#contact {
+  background: url(/img/map.jpg);
+}
+#footer ul a {
+  color: #262626;
+  text-decoration: none;
+}
+#footer ul a:hover {
+  color: rgba(0, 255, 255, 0.808);
+}
+@media only screen and (min-width: 200px) and(max-width:767px) {
+  #slider{
+    padding-top: 360px !important;
+  }
 }
